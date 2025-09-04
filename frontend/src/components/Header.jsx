@@ -62,7 +62,7 @@ export default function Header({ translations, language, onLanguageChange }) {
                 />
               </button> */}
 
-              {isLangOpen && (
+              {/* {isLangOpen && (
                 <ul className="dropdown-menu">
                   {languages.map((lang) => (
                     <li
@@ -82,7 +82,7 @@ export default function Header({ translations, language, onLanguageChange }) {
                     </li>
                   ))}
                 </ul>
-              )}
+              )} */}
             </div>
           </li>
         </ul>
